@@ -38,7 +38,7 @@ svg {
 }
 
 #svg-container {
-  width: 40vw;
+  width: 55vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -46,7 +46,7 @@ svg {
 }
 
 #text-container {
-  width: 60vw;
+  width: 45vw;
   display: flex;
   justify-content: center;
   align-items: left;
@@ -60,6 +60,14 @@ svg {
 
   h2 {
     font-size: 42px;
+  }
+
+  #svg-container {
+    width: 50vw;
+  }
+
+  #text-container {
+    width: 50vw;
   }
 }
 
@@ -80,6 +88,14 @@ svg {
 
   h2 {
     font-size: 32px;
+  }
+
+  #svg-container {
+    width: 45vw;
+  }
+
+  #text-container {
+    width: 55vw;
   }
 }
 
