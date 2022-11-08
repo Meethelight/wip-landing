@@ -1,0 +1,154 @@
+/**
+* Basic CSS Media Query Template
+* ------------------------------------------
+*  Responsive Grid Media Queries - 1280, 1024, 768, 480
+*   1280-1024   - desktop (default grid)
+*   1024-768    - tablet landscape
+*   768-480     - tablet 
+*   480-less    - phone landscape & smaller
+* --------------------------------------------
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+h1 {
+  display: inline-block;
+  font-family: 'Pacifico', cursive;
+  font-size: 160px;
+  margin: 0.2em 0;
+}
+
+h2 {
+  display: inline-block;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 60px;
+  margin: 0;
+}
+
+svg {
+  width: 70%;
+  height: 100%;
+}
+
+#svg-container {
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-container {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+@media all and (min-width: 1280px) and (max-width: 1440px) { 
+  h1 {
+    font-size: 110px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+  h1 {
+    font-size: 110px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+  h1 {
+    font-size: 90px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) { 
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+}
+
+/*
+ * Mobile
+ */
+@media all and (max-width: 480px) {
+  body {
+    display: inline-block;
+  }
+
+  svg {
+    width: 70%;
+    height: 100%;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  #svg-container {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #text-container {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+/* Portrait */
+@media screen and (orientation:portrait) { /* Portrait styles here */ }
+/* Landscape */
+@media screen and (orientation:landscape) { /* Landscape styles here */ }
+/* CSS for iPhone, iPad, and Retina Displays */
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {}
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+}
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {} 
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {}
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {}
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {}

@@ -1,0 +1,19 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_312_82)">
+<ellipse cx="540.5" cy="110.5" rx="62.5" ry="104.5" fill="#A6D1E6"/>
+<ellipse cx="540.5" cy="966.5" rx="62.5" ry="104.5" transform="rotate(-180 540.5 966.5)" fill="#A6D1E6"/>
+<ellipse cx="924" cy="540.5" rx="62.5" ry="101" transform="rotate(90 924 540.5)" fill="#A6D1E6"/>
+<ellipse cx="157" cy="540.5" rx="62.5" ry="100" transform="rotate(90 157 540.5)" fill="#A6D1E6"/>
+<path d="M448.5 453L288.5 541L448.5 624.5L540.5 834L630.5 624.5L791.5 541L630.5 453L540.5 254.5L448.5 453Z" fill="#FFF178" stroke="black"/>
+<path d="M789.001 540C623 457 623 457 540 254M789.001 540C623 623 623 623 540 826M789.001 540C789.001 540 1009 660 1009 540C1009 420 789.001 540 789.001 540ZM540 254C540 254 660.001 21.0001 540 21.0002C420.001 21.0001 540 254 540 254ZM540 254C457 457 457 457 290.001 540M290.001 540C457 623 457 623 540 826M290.001 540C290.001 540 70 420 70.0009 540C70 660 290.001 540 290.001 540ZM540 826C540 826 660 1059 540 1059C420 1059 540 826 540 826Z" stroke="black" stroke-width="35"/>
+<path d="M742.5 337.5L820.878 260.631" stroke="black" stroke-width="38" stroke-linecap="round"/>
+<path d="M259 822.075L338.075 742" stroke="black" stroke-width="38" stroke-linecap="round"/>
+<line x1="334.075" y1="338.944" x2="257.001" y2="261.87" stroke="black" stroke-width="38" stroke-linecap="round"/>
+<line x1="818.075" y1="823.945" x2="741.001" y2="746.87" stroke="black" stroke-width="38" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_312_82">
+<rect width="1080" height="1080" fill="white"/>
+</clipPath>
+</defs>
+</svg>
